@@ -1,0 +1,14 @@
+.{
+    .name = "repro",
+    .version = "0.0.0",
+    .dependencies = .{
+        .dependency = .{ .path = "dependency" },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "dependency",
+    },
+}
